@@ -8,9 +8,9 @@ namespace EmployeePayroll
 {
     internal class EmployeeProfile
     {
-        int id { get; set; }
-        string Name { get; set; }
-        double salary { get; set; }
-        DateTime DateTime { get; set; }
+        public int id { get; set; }
+        public string Name { get; set; }
+        public decimal salary { get; set; }
+        public DateTime DateTime { get; set; }
     }
 }
